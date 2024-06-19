@@ -1,0 +1,107 @@
+body{
+    background-color: #F2F1DF;
+
+}
+header{
+    width: 20%;
+}
+.Logo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    
+
+}
+nav{
+    background-color: white   ;
+    width: 15%;
+    min-height: 200px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    
+}
+ul{
+    
+    background-color: #F2F1DF;
+    padding: 5%;
+    width: 100%;
+    
+}
+.Carrito{
+    position: relative;
+    
+}
+.content{
+    background-color: white;
+    width: 80%;
+    margin-left: 3%;
+    border-radius: 10px;
+    
+}
+main{
+    display: flex;
+    height: 600px;
+}
+.titulo{
+    padding-left: 5%;
+    padding: 2%;
+    color: #145F37;
+}
+.productos{
+    display:flex;
+    column-gap: 2%;
+    width: 90%;
+    height: 62%;
+    margin-left: 4%;
+    flex-direction: row;
+}
+.abrigo1{
+    width: 60%;
+    margin: 20%;
+    margin-top: 4%;
+    border-radius: 10px;
+}
+.abrigos{
+    background-color: #F2F1DF;
+    font-size: 15px;
+    border-radius: 10%;
+
+}
+.nombre{
+    margin-top: -20%;
+    margin-left: 4%;
+}
+.precio{
+    margin-left: 30%;
+}
+.compra{
+    margin-left: 60%;
+    padding: 2px;
+    
+    text-decoration: none;
+    background-color:#145F37;
+    border-radius: 5px;
+    border-color: #145F37 1px solid;
+
+}
+a{
+    text-decoration: none;
+    color: #F2F1DF;
+}
+
+
+
+
+
+
+
+
+
+footer{
+    
+    padding: 3%;
+    color: #145F37;
+}
